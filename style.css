@@ -1,0 +1,876 @@
+*{
+    margin:2px;
+    padding: 0px;
+}
+.top-nav{
+    display: flex;
+    height: 60px;
+    border: 1px solid black;
+    background-color: black;
+    align-items: center;
+}
+/**.top-nav:hover{
+    border: 2px solid white;
+}**/
+.amazon-logo {
+    height: 40px;
+    width: 146px;
+    background-image: url(https://res.cloudinary.com/demxptgah/image/upload/v1718979136/amazon_pc_rszc9z.jpg);
+    background-size: cover;
+    cursor: pointer;
+   border: 2px transparent white;  
+}
+/**.amazon-logo:hover {
+    border: 2px solid white;
+}**/
+.address{
+    height: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+
+}
+/**.address:hover{
+    border: 2px solid white;
+}**/
+.delivery-msg{
+    font-size: 1em;
+    color: white;
+    font-size: small;
+}
+.location{
+    font-size: 1em;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size:small;
+}
+.location-img{
+    background-image: url(https://res.cloudinary.com/demxptgah/image/upload/v1718984611/location-icon_l9qk41.png);
+    background-size:cover;
+    height: 22px;
+    width: 22px;
+}
+.lang{
+    color: white;
+    cursor: pointer;
+    display: flex;
+}
+/**.lang:hover{
+    border: 2px solid white;
+}**/
+.sign-in{
+    color: white;
+    cursor: pointer;
+}
+/**
+.sign-in:hover{
+    border: 2px solid white;
+}**/
+.hello{
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+.return{
+    color: white;
+    cursor: pointer;
+}
+/**.return:hover{
+    border: 2px solid white;
+}**/
+.small{
+    color: white;
+    font-size: small;
+}
+.cart{
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+/**.cart:hover{
+    border: 2px solid white;
+}**/
+.cartt{
+    color: white;
+    cursor: pointer;
+
+}
+
+.navbar{
+    display: flex;
+    height: 40px;
+    border: 2px solid black;
+    background-color:#0f1111;
+    align-items: center;
+    cursor: pointer;
+}
+.all{
+    color: white;
+    font-weight: 100;
+    padding: 6px;
+    cursor: pointer;
+}
+.all:hover{
+    border: 2px solid white;
+}
+.hero-section{
+    cursor: pointer;
+    background-size: cover;
+    
+}
+/**shop-section**/
+.shop-section{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(213, 209, 209);
+    margin-top: -2px;
+   
+}
+.box-1{
+    border: 2px solid white;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    background-color: white;
+}
+    .first{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://res.cloudinary.com/demxptgah/image/upload/v1719053306/home-1_eyhz7e.jpg');
+    
+}
+.second{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://res.cloudinary.com/demxptgah/image/upload/v1719053306/home-2_hcihsc.jpg');
+}
+
+.third{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://res.cloudinary.com/demxptgah/image/upload/v1719042053/mini_pics_1_jhbx4r.jpg');
+}
+.four{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://res.cloudinary.com/demxptgah/image/upload/v1719053306/home-4_efbfte.jpg');
+}
+
+
+.box-2{
+    border: 2px solid white;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+}
+    .first-1{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_4._SY116_CB600489960_.jpg');
+    
+}
+.second-2{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_3._SY116_CB600489960_.jpg');
+}
+
+.third-3{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_7._SY116_CB600489960_.jpg');
+}
+.four-4{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_5._SY116_CB600489960_.jpg');
+}
+
+.box-3{
+    border: 2px solid whitesmoke;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+}
+.first-11{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg');
+    
+}
+.second-22{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg');
+}
+
+.third-33{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg');
+}
+.four-44{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Zeb_0.5x._SY116_CB553870684_.jpg');
+}
+
+.box-4{
+    border: 2px solid whitesmoke;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+
+}
+.first-111{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg');
+    
+}
+.second-222{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg');
+}
+
+.third-333{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg');
+}
+.four-444{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg');
+}
+
+.shop-section2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(213, 209, 209);
+    margin-top: -2px;
+   
+}
+.box-two{
+    border: 2px solid white;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    background-color: white;
+}
+    .sumanth{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image:url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg')
+}
+.venu{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg');
+}
+
+.bharath{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg');
+}
+.ram{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg');
+}
+
+
+.box-11{
+    border: 2px solid white;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+}
+    .sumanth-1{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/June/BTF/17th/Shoes-low._SY116_CB555280724_.jpg');
+    
+}
+.venu-1{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/June/BTF/17th/pcqc2-3-low._SY116_CB555273362_.jpg');
+}
+
+.bharath-1{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/June/BTF/17th/Pcqc2-4-low._SY116_CB555273362_.jpg');
+}
+.ram-1{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/2024/June/BTF/17th/Pcqc-2-2-low._SY116_CB555273362_.jpg');
+}
+
+.box-22{
+    border: 2px solid whitesmoke;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+}
+.sumanth-11{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-image: url('https://m.media-amazon.com/images/I/61rQdn1r+pL._AC_SY200_.jpg');
+    
+}
+.venu-11{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/41ip9T4JjJL._AC_SY200_.jpg');
+}
+
+.bharath-11{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/61YI905MZGL._AC_SY200_.jpg');
+}
+.ram-11{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71wyg0bQveL._AC_SY200_.jpg');
+}
+
+.box-33{
+    border: 2px solid whitesmoke;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+
+}
+.sumanth-111{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/81va7ZdMOUL._AC_SY200_.jpg');
+    
+}
+.venu-111{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/61rFSbakUXL._AC_SY200_.jpg');
+}
+
+.bharath-111{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/81DRMbcCeSS._AC_SY200_.jpg');
+}
+.ram-111{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71UNt+IXCaL._AC_SY200_.jpg');
+}
+
+
+.shop-section3{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    background-size: contain;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(213, 209, 209);
+    margin-top: -2px;
+   
+}
+.box-three{
+    border: 2px solid white;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    background-color: white;
+}
+    .sumanth-2{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/616VuRO-4yL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.venu-2{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71Jukhvw8DL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+ }
+
+.bharath-2{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71ekGwXai2L._AC_SY200_.jpg');
+     background-repeat: no-repeat;
+ }
+.ram-2{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/710Rl2zN0JL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+
+
+.box-111{
+    border: 2px solid white;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+}
+    .sumanth-22{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/61VhooAPeVL._AC_SY95_.jpg');
+    background-repeat: no-repeat;
+    
+}
+.venu-22{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/81+SKGgJ9yL._AC_SY95_.jpg');
+    background-repeat: no-repeat;
+
+background-repeat: no-repeat;}
+.bharath-22{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71czGb00k5L._AC_SY95_.jpg');
+    background-repeat: no-repeat;
+}
+.ram-22{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71bDJ9wxxWL._AC_SY95_.jpg');
+    background-repeat: no-repeat;
+}
+
+.box-222{
+    border: 1px solid whitesmoke;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+}
+.sumanth-222{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/61ZWoGt1m2L._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+    
+}
+.venu-222{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/619-x575S9L._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+
+.bharath-222{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71ROX4wpdXL._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+.ram-222{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71Y0IzBEp3L._AC_SY200_.jpg');
+    background-repeat: no-repeat;
+}
+
+.box-333{
+    border: 1px solid whitesmoke;
+    height: 420px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: white;
+
+}
+.sumanth-333{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/81pIQ0xNYDL._AC_SY200_.jpg');
+    
+}
+.venu-333{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/71frwBJgEsL._AC_SY200_.jpg');
+}
+
+.bharath-333{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/714MI16VQzL._AC_SY200_.jpg');
+}
+.ram-333{
+    height: 150px;
+    width: 150px;
+    color: #0f0000;
+    border: 2px solid white;
+    background-image: url('https://m.media-amazon.com/images/I/91Z0P1PQV7L._AC_SY200_.jpg');
+}
+.see-all:hover{
+ color: red;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.part{
+   
+    height: 400px;
+    width: 30%;
+}
+.more:hover{
+    color: red;
+}
+/** foot-panel1 **/
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.foot-panel1:hover{
+ color: red;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.foot-panel2:hover{
+    text-decoration: underline;
+}
+
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 46px;
+    width: 146px;
+    background-image: url(https://res.cloudinary.com/demxptgah/image/upload/v1718979136/amazon_pc_rszc9z.jpg);
+    background-size: cover;
+    cursor: pointer;  
+    text-align: justify; 
+    
+}
+.eng{
+  border: 1px solid white;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.indd{
+    border: 1px solid white;
+    display: flex;
+    cursor: pointer;
+    
+}
+.foot-panel4{
+    background-color: #0f0000;
+    color: white;
+    height: 250px;
+    font-size: 0.7rem;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot-panel4:hover{
+    text-decoration: underline;
+}
+.pages{
+    height: 100px;
+    background-color: #0f0000;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.pages:hover{
+    text-decoration: underline;
+}
+.copyright{
+    padding-top: 5px;
+    background-color: #0f0000;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+   
+}
+.hero-section{
+   
+    background-size: cover;
+    height: 330px;
+    width: 100%;
+    background-image: url(https://res.cloudinary.com/demxptgah/image/upload/v1719041348/amoazon_home_pic_eg5wtx.jpg);
+    background-color: lightgrey;
+}
+.sign{
+    height: 40px;
+    width: 195px;
+    background-color: yellow;
+    margin-left: 620px;
+    border-radius: 13%;
+   
+}
+.signn{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+.search-bar{
+    height: 41px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.search{
+    border: none;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: none;
+}
+.search-img{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEX//wAAAACrqwAqKgCXlwCEhAD8/ABhYQBycgDz8wBcXAD4+ABBQQDQ0ABYWACvrwAyMgBQUADj4wBpaQDh4QDp6QDo6ACRkQBJSQAeHgC8vACengDa2gCnpwArKwDV1QA6OgAMDAAjIwASEgC0tACLiwDFxQAZGQDGxgAXFwB6egBvbwAwMABGRgA8PAB9fQAhIQDgPzVVAAAIuElEQVR4nO2d6XYaMQyFZ1gGJuw7YYeSBUjSvv/Tla1NmpE9sn0Ndo/vOf3XGH14k21JRPFZu81be1XvdDrNylGH6lH78j8alXI0L9xK02+ffDHwZPPhaHxnXF+1F5uX9YUsjo7/HifDWvS/KUm7y+fy45lwld7bGnvqro+Em/8YMIrmR8LGvY2wq2a0uLcJltWKivc2wbIKgdB7BUL/FQj9VyD0X4HQfwVC/xUI/Vcg9F+B0H8FQv8VCP1XIPRfgdB/BUL/FQj9lzXCWpp2l41GY9lN01pi5zNYskGYLlujw7j9eAmGWO+KH83qaP46vA8nmrDWGDU3Man1R3U7hH4YS1DCdNL7QdP91Xjax30eSzjC5LW6y8G76KF10+APFGE6H7PwztqMupAPZQlDmJYe+Xxn7W82IxGEaSlv9lEq3WisAggnbQ2+o9qtm2wfxoT9Bz2+k8ZLDIRUpoRTfb6TpiAMicwIhxUzwOPWYX3FMSJ8FXgvKtpMcDCkTAjn5nwnjYA4hPQJkz0G8Lg3Qom+S5uw1kMBxnHP5taoS5gYbBJZdSwiahLWFLxQjiyGmusR1qA9eFLHWrKAHuGBYfO4cjiq99D5YO0pBzjaVVqEP/PMfdtPun+dztqgv9w+NfP+pozE+iIdwpx9cFUib2TSbQ5kyZyGkgZhQ2bmuvcqPjHMStJjyKsRiUjqhIOFxMinnMN7OpUclYtWFlR1QomzXWFcTqQj8d9bWW2UCQtC+8bMUTYQe0MFdYB8gxUJB0LrnvgndvG3ZOGGSpVQ+P0rHYJmdUErTSVjWFIkfBZYVlf88hORz/Cs1g5DaoSJwB19UL9TEpy96vDbKTVCwQSq6DiVAseopdGU3GYVwqRIGqV59imTjRXRLrgSId2FHd2BRe+saOdNhTBZURbttD2R9I1EBM9EFcIJaZDB6jcjG9zqN0hJhZA8GxjdlLWoFj9MWsxKgZD8xrUn4UXkl4a961cgJF3mmdnHL6k2sWdhPmGNOttVTT+f2jIW0A2DT0gefI1fHRKqVWiFAD4hNUifzA2gmoUOUz4hcRx4GZgbMCQI2+bNfopNSFkC+a6rRMPIYyKbcEsYAlnWqfmNPOuzCYlFb4wxgTiRGS/RX8QmJPZmkI/8lG15jWn5LC5hShycQPFb1DAF3ityCftZK4qgQ0D6km0buCNyCYlzBex2k3jIAp4vuITE4Rd2VCXaBu75XELC9YAFURATsYJqm09I3BsZHis+Rdwyv6Pa5hMSdyq4UNhs20C/jUmYZLfDHcApvSr7HoVapyM+YSdjxBtuz8q+1z3iGucSZl2rNs6IrDfxAzdAmIS17NkpECrICcJ3m4TZeXh7QrsrTdYx1b9Iz4hLmPUdEVcY18Yzbd9ht6DefmE7fjfb9grVNp+QeNCEXU0TfukdvDbC84adcIiT2R08byLSC3BZehHx7QEjo7mERIjCA8oG4groDidg6uEJ9LxQ+5Vt+g63GAMiHg0UaUfdRAHfZti3idktP+5hTCBuEzeYls8yuRFeQ/Z86jUfmZ/AJqQe8ecIC6iGkUE1bELC8Yg7CAuooHic3234uoZYa6hFum7e7Kf4hCWqE80dZCrYEeZLnMQnJIMKjO9MyVahwRh8woQapivTz6fCTT6gUVEK0SZkuqjhWyYZZoVN11MgpNyaeGd0ShySwY7YqgsqUV9kRGjTZEiR0Ykwj/4iFUI60M7gCYpOkwYnlijFl9IZa9rnADpofKXbnEBKhHQ+0E7zEapBFwpBZz6rxXnTUb0braWhSyftwUPZ1QjJ/TmOixoRPn06ZhyfjqCYbyHIIVgoD9SGIO0SeAV1lSJhf00b9kNx9kxE1VDwFYhUs4KEdTCUHBFh/pqF6gPKuWvCJG5Oat5FfWEyadtCvrMyIb3tn7QusZbBpCBOssRnPelkWErqtbQZ7shr9p3OahdqEEqrKXxs5UY2iCu7LwKcqDPSyHQeSNOVf5WE83EwF6Ud/pWRH09LJ1tdPBWvPTFqZHuyOzkQEXoZaeT55Uir4gCdHvRPT1amz8th7aR09rwd9egUp1sg6lWNMKwOJRV6LmrWNqEu3lAC96JufRp/ELVrDNlEhK6o+nWibM5FZNK6Qa2v/BVVX8CBalLNbCY4xEIQnSCMUuOSe2JB3rWMCQFF6cRVQFDLjWllyL7clc7Re0PyHYEGqnn9UoNunJ66SVzoBLOiAiq0DujiCLnaX196xYiQuQipI9yncghz1Py8KhcjIjYNUC3opWIVxc4/TwFW5yKsnvfgiV0ueb3/fr1qc6ACa7Inz701g69JFSwniytc/rupWdi6+oPJXn6Q7xUE+e325iL8txGSfkFQfb43JS43Pg0RI5oZZOn3LWaTQrnXef9Yrer1cWVfmjRyQ9PFA9VsLjr0GyWSuWgyUB0itDQXXSK004tOEVqZi24RShC1B6pjhBbmomuEsoGqh+gcIXygukcoGag9HUQHCcGILhJKBmpFHdFJQgmiei+6SYgcqI4SAgeqq4Q4RGcJJQO1qoToLqEMUakZdwklA1UF0WVCSS/+VGjEZULJVTE/cchtQkkvshEdJ5QgckNRXSeUIDJ/lc55Qslc5OVcuU8o6UVWcLkHhBJETrqOD4TigcqpkeMFoRiRkefhB6HIgeMUPfOEkCzyyysg6Qsh2YtrTjlxbwipXmTVdPCHMBsLySsR6xHhd8Q6r+KZT4TR6/oLYJFZ098rwmj2mdRQ5/5ogV+E0fBP6lyFXf7EM8IovWSx8tLkzvKN8Lje1NdNldIg/hEe+1Hpf/tIqKZA6L8Cof8KhP4rEPqvQOi/AqH/CoT+KxD6r0DovwKh/wqE/isQ+q9A6L8Cof8qRIt7m2BZrQj3e6JuqhLFbQsFJ91RK46AP+zroNKXE2F8eJ4NbRRHvbPSfmO6iOM/P1W7K76t6p2HyqFaLZfLpZOmBY90tvipXN5Xq5VKc1xvL35do29+A78tZYLBfhizAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 40px;
+    background-size: cover;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input-search{
+border: none;
+flex-grow: 1;
+
+}
